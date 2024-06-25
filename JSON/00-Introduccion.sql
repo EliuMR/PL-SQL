@@ -1,0 +1,24 @@
+-- JSON
+-- Es un formato de intercambio de datos ligeros y fácil de leer orientado as uso en la web
+-- Transmite información en formato de terxto plano entre servidores y aplicaciones cliente
+-- La estructura de un documento JSON en una colección de pares clave-valor.
+-- clave similar a atributo:
+        -- "nombre" : "Pepe"
+-- Se usan las llaves para envolver un documento JSON
+-- Un array se pone en corchetes, muchos elementos dentro de un atributo
+--  Ejemplo de dos documetos JSON
+-- [
+--  {   "nombre" : "Pepe",
+--            "Apellido" : "Rodriguez",
+--            "edad" : 32,
+--        }
+--        {
+--            "nombre" : "Carmen",
+--            "Apellido" : "Hernandez",
+--            "edad" : 32,
+--            "ocupación" : "Informática"
+--        }
+-- ]
+
+-- En versiones superiores a 21c se incorpora JSON antes se devia realizar con VARCHAR2
+ 
